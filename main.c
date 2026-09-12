@@ -36,5 +36,8 @@ int main()
         x1 += delta; 
     }
 
+    strcat(result, "\n+----------+----------+----------+\n");
+    printf("%s", result);
+
     return 0;
 }
